@@ -1,0 +1,23 @@
+[includeIf "gitdir:~/dev/work/"]
+	path = .gitconfig-work
+[includeIf "gitdir:~/dev/personal/"]
+	path = .gitconfig-personal
+[credential]
+	helper = store
+[core]
+	autocrlf = input
+	editor = code -w
+	pager = cat
+	ignorecase = true
+[commit]
+	template = /Users/USERNAME/.gitmessage
+[alias]
+	co = checkout
+	st = status --short
+	cm = commit
+	cma = commit --amend
+	cmn = commit --amend --no-edit
+[push]
+	default=current
+[help]
+	autocorrect = 1

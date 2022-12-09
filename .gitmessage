@@ -1,0 +1,13 @@
+# Title:                                                               #
+
+#Body: Explain *what* and *why* (not *how*).                           #
+
+# Footer:                                                              #
+
+# Refs: #123
+# BREAKING CHANGE:
+
+# Types
+# fix, feat, build, chore, ci, docs, style, refactor, revert, perf & test
+
+# i.e breaking change: chore(node)!: drop support for Node 6
